@@ -120,8 +120,9 @@
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B28003917869A306C9497FB3139B5550 /* UIImage+Snapshot.m */; };
 		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FB3F77E4C4F8A60BD0821D35D19C7 /* Contain.swift */; };
 		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F65877051A80854B8307C51E5BF152 /* Nimble-dummy.m */; };
+		E25637B91D8675FC00736FD8 /* MTCoordinateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */; };
+		E25637BB1D86761300736FD8 /* MTCoordinateContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */; };
 		E3B1EAAC82543C09339AE71FE9B31AEC /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7395C69488EE986713CFCD76E434400B /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4121E3FD5012575F2E7C968BA8F27E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12C835D9DFA0CED2A416851707E2C9 /* ReplaceMe.swift */; };
 		E6F6FF9554A6C7EABD6B92B691751DAD /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712924708985B1EB68BCE0D290D815FC /* BeLessThanOrEqual.swift */; };
 		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6203A309895700207A684C456765291 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957F682B3F1EE74D842B29320D0D131 /* BeEmpty.swift */; };
@@ -237,7 +238,6 @@
 		36215F7E5778F54BA3D2A39454D4B03F /* CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CurrentTestCaseTracker.m; path = Sources/Nimble/objc/CurrentTestCaseTracker.m; sourceTree = "<group>"; };
 		36C9BFB4E392CEED3BC63CB05F5EADAF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		3705635892E8C6B350CF6E36F63D9B89 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A12C835D9DFA0CED2A416851707E2C9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		3A347C7378D4F18FC0A876A2AFCAD1FD /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		3C7ED2BDE3DF99F5BCBC49A7310F7AA0 /* Pods-MTCoordinatorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTCoordinatorView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3DBFB13949BAD80298338AD1EA131646 /* Pods-MTCoordinatorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTCoordinatorView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -337,6 +337,8 @@
 		DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		DE300E3EAEB55D242BB905111CE02C5A /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
 		E0CB59E222B52B1A8991F62947171AD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCoordinateManager.swift; sourceTree = "<group>"; };
+		E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCoordinateContainer.swift; sourceTree = "<group>"; };
 		E456588A7D5D494914B25F6F2C50662A /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
 		E49C95F056009CC789247F71C33EB79A /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		E6015044230FFD0F7A4F16DFBDC93317 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -706,7 +708,8 @@
 		C336BDAD3EE5B2F7F34F146C6ED1EB89 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3A12C835D9DFA0CED2A416851707E2C9 /* ReplaceMe.swift */,
+				E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */,
+				E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1105,9 +1108,11 @@
 				497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */,
 				6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */,
 				6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */,
+				E25637BB1D86761300736FD8 /* MTCoordinateContainer.swift in Sources */,
 				F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */,
 				85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */,
 				2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */,
+				E25637B91D8675FC00736FD8 /* MTCoordinateManager.swift in Sources */,
 				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
 				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
 				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
@@ -1119,7 +1124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C1EC5467CA5B081F5894624083CDCF /* MTCoordinatorView-dummy.m in Sources */,
-				E4121E3FD5012575F2E7C968BA8F27E6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
