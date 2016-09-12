@@ -1,0 +1,22 @@
+{
+  "name": "MTCoordinatorView",
+  "version": "0.1.0",
+  "summary": "A short description of MTCoordinatorView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MTCoordinatorView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tokumitsu-takeshi": "t.tokumitsu@trifort.jp"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MTCoordinatorView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTCoordinatorView/Classes/**/*"
+}

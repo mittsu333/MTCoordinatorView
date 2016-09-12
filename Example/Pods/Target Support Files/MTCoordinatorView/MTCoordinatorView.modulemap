@@ -1,0 +1,6 @@
+framework module MTCoordinatorView {
+  umbrella header "MTCoordinatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

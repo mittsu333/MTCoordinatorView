@@ -1,6 +1,5 @@
 # MTCoordinatorView
 
-[![CI Status](http://img.shields.io/travis/tokumitsu-takeshi/MTCoordinatorView.svg?style=flat)](https://travis-ci.org/tokumitsu-takeshi/MTCoordinatorView)
 [![Version](https://img.shields.io/cocoapods/v/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
 [![License](https://img.shields.io/cocoapods/l/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
 [![Platform](https://img.shields.io/cocoapods/p/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
@@ -20,9 +19,6 @@ it, simply add the following line to your Podfile:
 pod "MTCoordinatorView"
 ```
 
-## Author
-
-tokumitsu-takeshi, t.tokumitsu@trifort.jp
 
 ## License
 
