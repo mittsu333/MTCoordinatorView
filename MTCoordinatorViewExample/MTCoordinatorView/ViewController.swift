@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     
     func createSecondView() -> MTCoordinateContainer {
         let btnView = UIImageView.init(image: UIImage(named: "sample-button"))
-        btnView.frame = CGRectMake(self.view.frame.size.width - 70, self.view.frame.size.height + 100, 0, 0)
+        btnView.frame = CGRectMake(self.view.frame.size.width - 70, self.view.frame.size.height + 70, 0, 0)
         
         let secondChildView = MTCoordinateContainer.init(view: btnView, endForm: CGRectMake(self.view.frame.size.width - 70, self.view.frame.size.height, 50, 50), mode: .FIXITY, completion: { [weak self] in
             self?.tapEvent("Button Tap Event")
