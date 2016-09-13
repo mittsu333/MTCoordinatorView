@@ -20,7 +20,6 @@
 		17DC0C5C3226C9790D7FB277B1A40187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
 		1C696A0CCC5C29FFBBB8620F5DC8FA6D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA51A537B8A1D62516D4D49038B2EA /* Example.swift */; };
 		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */; };
-		1FC3A76782017742CF4D78672D2EFBB0 /* MTCoordinatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4D8AAF07C884924B53AD1A8E7A078A /* MTCoordinatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 859C5C30856A6617F00E5D648C212EC9 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24BA48295DE470061BB55F0999CC7B28 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B06621F04BF61FD2640778B87EF01EF /* SuiteHooks.swift */; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4735107E92082DC6617FC47323AC36 /* UIApplication+StrictKeyWindow.m */; };
@@ -44,10 +43,10 @@
 		49CA018A1EFE0681D470F5743BA8BB0F /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE997C745F05A9B57C00D839E47FD137 /* QuickTestSuite.swift */; };
 		4A2EF0E72836C8432665C044C67933EA /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919E006D8AD5BDDA891839BF797D2B7 /* String+FileName.swift */; };
 		4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6AF1AB45E76B352DD93ACE676230A /* BeNil.swift */; };
+		4DD602B15B3245F6C0DDFE538663A121 /* MTCoordinateContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FBC20220A888AADCA2B79B65221D9 /* MTCoordinateContainer.swift */; };
 		4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C8E711729FB4599F51C263CB8965D /* AssertionRecorder.swift */; };
 		5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772D3E5AF34E2F6DC985845FB3489AF /* EndWith.swift */; };
 		5438871833E759C86C2CA743AD3EF2DD /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD9B4FF295C9E0487B426B9968F28B /* World.swift */; };
-		5C395E61878DF30D4E2294F6EECE717B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
 		5EF5C00C6AECE1FCFFF118577817F5CE /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FE4B4725F603253354543D534DE89 /* Equal.swift */; };
 		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 599644A4F7E0D425F0BAAE68F5028FBE /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		636A1DD83197D4668B43CC94E874E892 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD73863B384083727F1E1F1433B8FEF /* Callsite.swift */; };
@@ -56,6 +55,7 @@
 		68527A7545342CBB4F923DC8543F7B20 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AEB803D8113B84CEF9D7767BA8BDF2 /* DSL.m */; };
 		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 343674D42E32EDD0CE20C345A267EE72 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 996E10C05D249B0C3EDF6C9DFA69D9A1 /* FBSnapshotTestCase.m */; };
+		69BBDC7C10C39FA0DFC51D5BD7D1FE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
 		6A2416DC412F9A491A2515F9BB09A435 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 16919C7A4E4268D3FF7586B89894D6FD /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BBF29A97AF9E33B3EB5E55DDD331FB3 /* Pods-MTCoordinatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACA243FA3240CDCC413731FE9E96F0C /* Pods-MTCoordinatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E6015044230FFD0F7A4F16DFBDC93317 /* FBSnapshotTestCasePlatform.m */; };
@@ -68,6 +68,8 @@
 		78C0EDC656B9152FB603EC259D241DA5 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823197EA5904A9150FB0AD8B09841E6 /* FBSnapshotTestCase.framework */; };
 		78D8A6D18262A58D2393273FE3FDA481 /* Pods-MTCoordinatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF6287294D80CFC60F24905D5B15464 /* Pods-MTCoordinatorView_Example-dummy.m */; };
 		7929623E9CC7C966AD703F6410B3935A /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A490DE6EF5FD2EECBD3E87DDD7B1F0 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
+		795BAAE8FB09631F8A9635A1117FDF69 /* MTCoordinatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4D8AAF07C884924B53AD1A8E7A078A /* MTCoordinatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3661BDC7FE021C67588F668EBDDA70 /* MTCoordinateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59442ECC8E94D600D92E1AFDC5570E49 /* MTCoordinateManager.swift */; };
 		7CC86ABC7F4135EE12A755B023F134CE /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D1223A52A7D757500B5F20A08B5AD6 /* AssertionDispatcher.swift */; };
 		7DC9B169B5FCC3EE99F6D36EC530FE1E /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8617C7CB79D6BC7E4582B59727905 /* Async.swift */; };
 		7EBD6B630F4536CB673DC0B455CCB16D /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F33C2B0CF1BD93F497D1B0CCEB5F6 /* BeGreaterThan.swift */; };
@@ -98,10 +100,10 @@
 		A55EC200F57C00E9A78D8A9DA4545338 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2C7849BF96607CCC8F48B5000898E /* HaveCount.swift */; };
 		A76AE1344634A61F11784DDDABE8C00D /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEE0AA407B501B27CD879CF8E608E81 /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8B06933352034483F1654F21432FDCF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4A4C40B59567B2C0BED393FA0EB20 /* Closures.swift */; };
-		A8C1EC5467CA5B081F5894624083CDCF /* MTCoordinatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2CD3E4F5538299F1C49A17FB276B4 /* MTCoordinatorView-dummy.m */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
 		ACB09D78794FB7AEA6EC6EDDADD38DAD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F03A1A302C6C29F7707D1545C60B509D /* QCKDSL.m */; };
 		AD2D4354F429E4DBD49D327BD408A3EB /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */; };
+		B07BCE929D470B41833A32E00EE83F7E /* CalcConversionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979BE9A81AC2A972592D9EDD647AE7D /* CalcConversionEx.swift */; };
 		B1825287DE872A038A4A44623EA54C1B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA3A806920B5D6DC56ED011270DE1F /* Configuration.swift */; };
 		B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E685779B53865FBDF4197A9CE4D9FD1 /* ThrowError.swift */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3480229FE5312ED491104B2619BC675D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -120,8 +122,6 @@
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B28003917869A306C9497FB3139B5550 /* UIImage+Snapshot.m */; };
 		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FB3F77E4C4F8A60BD0821D35D19C7 /* Contain.swift */; };
 		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F65877051A80854B8307C51E5BF152 /* Nimble-dummy.m */; };
-		E25637B91D8675FC00736FD8 /* MTCoordinateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */; };
-		E25637BB1D86761300736FD8 /* MTCoordinateContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */; };
 		E3B1EAAC82543C09339AE71FE9B31AEC /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7395C69488EE986713CFCD76E434400B /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6F6FF9554A6C7EABD6B92B691751DAD /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712924708985B1EB68BCE0D290D815FC /* BeLessThanOrEqual.swift */; };
 		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6203A309895700207A684C456765291 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -130,6 +130,7 @@
 		ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */; };
 		ED6A0B20E661EA13A99C377E2213DC5F /* NimbleSnapshotsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F965743749243B4108DC054D9C80B /* NimbleSnapshotsConfiguration.swift */; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582674A6983604C34B81F809F76255 /* UIKit.framework */; };
+		F0EFAC60BF43A1F21EDD2E868AAC72C7 /* MTCoordinatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2CD3E4F5538299F1C49A17FB276B4 /* MTCoordinatorView-dummy.m */; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609119DC233417D2E53038D69EDA53D /* QuartzCore.framework */; };
 		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */; };
 		F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83F5C578988BC0F8D2A7B6ADFD0E5F /* Expectation.swift */; };
@@ -149,7 +150,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34AB582D64FC5AEDACE49DFE654065A2;
+			remoteGlobalIDString = C66C866B7EF8D65A247429EBA6CAF750;
 			remoteInfo = MTCoordinatorView;
 		};
 		4E0F295B0BB16733CA58E06C44294956 /* PBXContainerItemProxy */ = {
@@ -251,13 +252,16 @@
 		46CFA8396F41F451FCD7B793EA4FD6D5 /* Pods-MTCoordinatorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTCoordinatorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48F777E25ED36E70CE87097188DADEAA /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		4957F682B3F1EE74D842B29320D0D131 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		4979BE9A81AC2A972592D9EDD647AE7D /* CalcConversionEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalcConversionEx.swift; sourceTree = "<group>"; };
 		49AEB803D8113B84CEF9D7767BA8BDF2 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/Nimble/objc/DSL.m; sourceTree = "<group>"; };
 		49D2C7849BF96607CCC8F48B5000898E /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		4D582674A6983604C34B81F809F76255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4F4D8AAF07C884924B53AD1A8E7A078A /* MTCoordinatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTCoordinatorView-umbrella.h"; sourceTree = "<group>"; };
 		5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		53C07F4A63C22A122DA1AAA43CFBA87F /* Pods-MTCoordinatorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTCoordinatorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		548FBC20220A888AADCA2B79B65221D9 /* MTCoordinateContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTCoordinateContainer.swift; sourceTree = "<group>"; };
 		57F9F8F6419CCEBFCD193B73AF283E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59442ECC8E94D600D92E1AFDC5570E49 /* MTCoordinateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTCoordinateManager.swift; sourceTree = "<group>"; };
 		599644A4F7E0D425F0BAAE68F5028FBE /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		5AD55F3974939097556240403DEE2DFF /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE5D30F0D3C4A71B9A23B47406AE1BC /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
@@ -337,8 +341,6 @@
 		DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		DE300E3EAEB55D242BB905111CE02C5A /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
 		E0CB59E222B52B1A8991F62947171AD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCoordinateManager.swift; sourceTree = "<group>"; };
-		E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCoordinateContainer.swift; sourceTree = "<group>"; };
 		E456588A7D5D494914B25F6F2C50662A /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
 		E49C95F056009CC789247F71C33EB79A /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		E6015044230FFD0F7A4F16DFBDC93317 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -372,14 +374,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33422D28FEED565DDAC5C612B104F2E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C395E61878DF30D4E2294F6EECE717B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3695781BBAAF452460866689FD521F30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +388,14 @@
 			files = (
 				499FBBE0BC69D633856BB07E2C80C0CF /* Foundation.framework in Frameworks */,
 				ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551AD79BA816D37B7B7A84C9849AF171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BBDC7C10C39FA0DFC51D5BD7D1FE8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,11 +507,21 @@
 		315056ECF0276DCC318D156C649436BE /* MTCoordinatorView */ = {
 			isa = PBXGroup;
 			children = (
-				70A8F4547400D652A73F9A983F544B21 /* MTCoordinatorView */,
+				893291DC78814AB0BFD4549FE8F939EE /* MTCoordinatorView */,
 				8203F3C43CE5901BFF71E7D7D3D192A7 /* Support Files */,
 			);
 			name = MTCoordinatorView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3ACA8CFDAA5663F7E92F3DA78E3BCFD0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				548FBC20220A888AADCA2B79B65221D9 /* MTCoordinateContainer.swift */,
+				59442ECC8E94D600D92E1AFDC5570E49 /* MTCoordinateManager.swift */,
+				EE5DE8692BFF8B03CE8DE32438E36230 /* extentoin */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		43BC2860F0D2874330AA9DF45D876E12 /* Targets Support Files */ = {
@@ -544,14 +556,6 @@
 				19F390BBA8970E36374C516D190011C2 /* Quick.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		70A8F4547400D652A73F9A983F544B21 /* MTCoordinatorView */ = {
-			isa = PBXGroup;
-			children = (
-				C336BDAD3EE5B2F7F34F146C6ED1EB89 /* Classes */,
-			);
-			path = MTCoordinatorView;
 			sourceTree = "<group>";
 		};
 		7770C2629DA6DF2066FA4EF26C7D891E /* Quick */ = {
@@ -632,6 +636,14 @@
 			path = "../Target Support Files/Nimble-Snapshots";
 			sourceTree = "<group>";
 		};
+		893291DC78814AB0BFD4549FE8F939EE /* MTCoordinatorView */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA8CFDAA5663F7E92F3DA78E3BCFD0 /* Classes */,
+			);
+			path = MTCoordinatorView;
+			sourceTree = "<group>";
+		};
 		8BC86C8F4DE22ECF7801D036E37B5ABC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -705,15 +717,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C336BDAD3EE5B2F7F34F146C6ED1EB89 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E25637B81D8675FC00736FD8 /* MTCoordinateManager.swift */,
-				E25637BA1D86761300736FD8 /* MTCoordinateContainer.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		C3FC6E94E1C792D1AC95AFE79915C5EF /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -771,6 +774,14 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		EE5DE8692BFF8B03CE8DE32438E36230 /* extentoin */ = {
+			isa = PBXGroup;
+			children = (
+				4979BE9A81AC2A972592D9EDD647AE7D /* CalcConversionEx.swift */,
+			);
+			path = extentoin;
+			sourceTree = "<group>";
+		};
 		FF011E64149D650C2FBF93ECF2F1EA56 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,19 +825,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57896EBA62F80817AA8208738E9EC252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795BAAE8FB09631F8A9635A1117FDF69 /* MTCoordinatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66E7DB4DE2644F5F693D68CBD15564AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				36076C14B35110B528A15AF21826CCE1 /* Nimble-Snapshots-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A87AFA2226E21FA6248427C6A58E1E1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FC3A76782017742CF4D78672D2EFBB0 /* MTCoordinatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,23 +891,6 @@
 			name = "Pods-MTCoordinatorView_Example";
 			productName = "Pods-MTCoordinatorView_Example";
 			productReference = BA1E8AB65680DD4EC06781CBDF19469A /* Pods_MTCoordinatorView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34AB582D64FC5AEDACE49DFE654065A2 /* MTCoordinatorView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99C75C0374B09892CFACE46476D95C5B /* Build configuration list for PBXNativeTarget "MTCoordinatorView" */;
-			buildPhases = (
-				8C03A8BAB702D8B9D19058E69C6BCD2D /* Sources */,
-				33422D28FEED565DDAC5C612B104F2E2 /* Frameworks */,
-				7A87AFA2226E21FA6248427C6A58E1E1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MTCoordinatorView;
-			productName = MTCoordinatorView;
-			productReference = 102EDC27A9547BD5BC6631BB3B7D1654 /* MTCoordinatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
@@ -974,6 +968,23 @@
 			productReference = 19F390BBA8970E36374C516D190011C2 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C66C866B7EF8D65A247429EBA6CAF750 /* MTCoordinatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505AE05F68E99D822BC235B4A42E381 /* Build configuration list for PBXNativeTarget "MTCoordinatorView" */;
+			buildPhases = (
+				1F587262F120D99D13C9AF5990DB2565 /* Sources */,
+				551AD79BA816D37B7B7A84C9849AF171 /* Frameworks */,
+				57896EBA62F80817AA8208738E9EC252 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTCoordinatorView;
+			productName = MTCoordinatorView;
+			productReference = 102EDC27A9547BD5BC6631BB3B7D1654 /* MTCoordinatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FE57A1C8E467D246D7D1BCB203A09DC /* Build configuration list for PBXNativeTarget "Nimble" */;
@@ -1003,9 +1014,6 @@
 					2CDB1999D6FB727C870ED7445CE6E145 = {
 						LastSwiftMigration = 0800;
 					};
-					34AB582D64FC5AEDACE49DFE654065A2 = {
-						LastSwiftMigration = 0800;
-					};
 					5DB46EA499F9A5E22765121102FCC34B = {
 						LastSwiftMigration = 0800;
 					};
@@ -1016,6 +1024,9 @@
 						LastSwiftMigration = 0800;
 					};
 					A5C430B1E2D8298FD6C5403590C0B80F = {
+						LastSwiftMigration = 0800;
+					};
+					C66C866B7EF8D65A247429EBA6CAF750 = {
 						LastSwiftMigration = 0800;
 					};
 					FF61C7C740C1B196A3B33F37B77DBC68 = {
@@ -1036,7 +1047,7 @@
 			projectRoot = "";
 			targets = (
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
-				34AB582D64FC5AEDACE49DFE654065A2 /* MTCoordinatorView */,
+				C66C866B7EF8D65A247429EBA6CAF750 /* MTCoordinatorView */,
 				FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */,
 				9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */,
 				2CDB1999D6FB727C870ED7445CE6E145 /* Pods-MTCoordinatorView_Example */,
@@ -1047,6 +1058,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F587262F120D99D13C9AF5990DB2565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07BCE929D470B41833A32E00EE83F7E /* CalcConversionEx.swift in Sources */,
+				4DD602B15B3245F6C0DDFE538663A121 /* MTCoordinateContainer.swift in Sources */,
+				7C3661BDC7FE021C67588F668EBDDA70 /* MTCoordinateManager.swift in Sources */,
+				F0EFAC60BF43A1F21EDD2E868AAC72C7 /* MTCoordinatorView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2823BDA58F2F74DEAB39C2F345AA07A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1108,22 +1130,12 @@
 				497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */,
 				6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */,
 				6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */,
-				E25637BB1D86761300736FD8 /* MTCoordinateContainer.swift in Sources */,
 				F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */,
 				85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */,
 				2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */,
-				E25637B91D8675FC00736FD8 /* MTCoordinateManager.swift in Sources */,
 				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
 				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
 				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C03A8BAB702D8B9D19058E69C6BCD2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8C1EC5467CA5B081F5894624083CDCF /* MTCoordinatorView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1221,7 +1233,7 @@
 		9EFEB3EB9EC9B40FB3FC5468F184482E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTCoordinatorView;
-			target = 34AB582D64FC5AEDACE49DFE654065A2 /* MTCoordinatorView */;
+			target = C66C866B7EF8D65A247429EBA6CAF750 /* MTCoordinatorView */;
 			targetProxy = 23E8457D9101D397EE5209554FFE4A1B /* PBXContainerItemProxy */;
 		};
 		B5EEF869A8D853590BFC239D1E1CB7D8 /* PBXTargetDependency */ = {
@@ -1239,44 +1251,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40A4E9A5259FFBF2F5AFEDF2B5340C1E /* FBSnapshotTestCase.xcconfig */;
@@ -1308,44 +1282,13 @@
 			};
 			name = Debug;
 		};
-		379E01D6D085E1FAE80D0BE29289A381 /* Debug */ = {
+		3B68CC84769C621ABA10B249D88F40D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 792234B8F5D47E0D54D8DF2D7DDBF61F /* MTCoordinatorView.xcconfig */;
+			baseConfigurationReference = C1B53DD1021C51E7C398A688D4C0BFBD /* Pods-MTCoordinatorView_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MTCoordinatorView/MTCoordinatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTCoordinatorView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTCoordinatorView/MTCoordinatorView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MTCoordinatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E7317AFFCA7B1856C691B00E03B386B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8850CF6914330EC4E5C3E678B5F69B2 /* Pods-MTCoordinatorView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1354,11 +1297,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MTCoordinatorView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MTCoordinatorView_Example/Pods-MTCoordinatorView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1366,13 +1309,12 @@
 				PRODUCT_NAME = Pods_MTCoordinatorView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		473FE2A031E83CA989ADC3F52F9EC2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1404,6 +1346,48 @@
 			};
 			name = Release;
 		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
 		5AAB066D3D4B35BAA4FCF6385B78B160 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FA5D4FC1244F6004BFD4CAFE86063EF /* Quick.xcconfig */;
@@ -1425,6 +1409,41 @@
 				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		610F2597C5BE3FD1CE9E6B0BAEF041AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CFA8396F41F451FCD7B793EA4FD6D5 /* Pods-MTCoordinatorView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Pods-MTCoordinatorView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTCoordinatorView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1466,7 +1485,7 @@
 			};
 			name = Debug;
 		};
-		852CDA2AC9040491070CC7D563756887 /* Release */ = {
+		A1E6F11784DF1AEE33D02FAC6D798083 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 792234B8F5D47E0D54D8DF2D7DDBF61F /* MTCoordinatorView.xcconfig */;
 			buildSettings = {
@@ -1496,13 +1515,51 @@
 			};
 			name = Release;
 		};
-		897607F3B2E3BECB02D410CDBC1400EB /* Release */ = {
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B53DD1021C51E7C398A688D4C0BFBD /* Pods-MTCoordinatorView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD9B2CD7461F5C55A571DFDD8178341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8850CF6914330EC4E5C3E678B5F69B2 /* Pods-MTCoordinatorView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1511,11 +1568,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MTCoordinatorView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MTCoordinatorView_Example/Pods-MTCoordinatorView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1523,46 +1580,44 @@
 				PRODUCT_NAME = Pods_MTCoordinatorView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8BCB1DEE04DD3912004338E3CA42F540 /* Release */ = {
+		BE31B696C07696A290A81A2F285A5015 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53C07F4A63C22A122DA1AAA43CFBA87F /* Pods-MTCoordinatorView_Tests.release.xcconfig */;
+			baseConfigurationReference = 792234B8F5D47E0D54D8DF2D7DDBF61F /* MTCoordinatorView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MTCoordinatorView/MTCoordinatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTCoordinatorView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Pods-MTCoordinatorView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MTCoordinatorView_Tests;
+				MODULEMAP_FILE = "Target Support Files/MTCoordinatorView/MTCoordinatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MTCoordinatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CBC8377EBA83197B271A26A15AB300D1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1623,48 +1678,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
 		};
 		F14745E2F2D90E33DB7401B9ED7C5F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1727,13 +1740,13 @@
 			};
 			name = Release;
 		};
-		F9F0B6D8DA8329C034C95FDBC67CEBAF /* Debug */ = {
+		F5447EDAAB89074D1ACB66CF87B721FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46CFA8396F41F451FCD7B793EA4FD6D5 /* Pods-MTCoordinatorView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 53C07F4A63C22A122DA1AAA43CFBA87F /* Pods-MTCoordinatorView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1742,11 +1755,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MTCoordinatorView_Tests/Pods-MTCoordinatorView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1754,13 +1767,12 @@
 				PRODUCT_NAME = Pods_MTCoordinatorView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1777,8 +1789,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1801,20 +1813,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99C75C0374B09892CFACE46476D95C5B /* Build configuration list for PBXNativeTarget "MTCoordinatorView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				379E01D6D085E1FAE80D0BE29289A381 /* Debug */,
-				852CDA2AC9040491070CC7D563756887 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BBC0A523C3D78C5160CFE1CDD94D5A22 /* Build configuration list for PBXNativeTarget "Pods-MTCoordinatorView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9F0B6D8DA8329C034C95FDBC67CEBAF /* Debug */,
-				8BCB1DEE04DD3912004338E3CA42F540 /* Release */,
+				610F2597C5BE3FD1CE9E6B0BAEF041AC /* Debug */,
+				F5447EDAAB89074D1ACB66CF87B721FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1831,8 +1834,17 @@
 		D8B1B1E64D9DEB2D33032970A1DC5357 /* Build configuration list for PBXNativeTarget "Pods-MTCoordinatorView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E7317AFFCA7B1856C691B00E03B386B /* Debug */,
-				897607F3B2E3BECB02D410CDBC1400EB /* Release */,
+				ACD9B2CD7461F5C55A571DFDD8178341 /* Debug */,
+				3B68CC84769C621ABA10B249D88F40D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505AE05F68E99D822BC235B4A42E381 /* Build configuration list for PBXNativeTarget "MTCoordinatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE31B696C07696A290A81A2F285A5015 /* Debug */,
+				A1E6F11784DF1AEE33D02FAC6D798083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
