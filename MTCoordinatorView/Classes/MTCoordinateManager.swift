@@ -123,7 +123,9 @@ public class MTCoordinateManager: UIView {
                 let maxH = max(view.startForm.size.height, view.endForm.size.height)
                 ratio = 1 - fabs(Float(overScroll / maxW) * Float(overScroll / maxH))
 
-            } else if max(diffX, diffY) != 0 && overScroll >= max(diffX, diffY) {
+            }
+
+            if max(diffX, diffY) != 0 && overScroll >= max(diffX, diffY) {
                 ratio = 0
             }
             
