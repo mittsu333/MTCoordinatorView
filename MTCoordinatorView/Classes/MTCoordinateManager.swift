@@ -70,7 +70,7 @@ public class MTCoordinateManager: UIView {
     public func setContainer(scroll: UIScrollView, views: MTCoordinateContainer...) {
         containerViews = views
         
-        for (index, view) in containerViews.enumerate() {
+        for (_, view) in containerViews.enumerate() {
             view.setHeader(statusNaviHeight, transitionHeight: headerViewHeight)
             scroll.addSubview(view)
         }
@@ -98,13 +98,13 @@ public class MTCoordinateManager: UIView {
         
         let ratio = 1 + fabs(overScroll / (parentViewHeight + overScroll))
 
-        for (index, view) in containerViews.enumerate() {
+        for (_, view) in containerViews.enumerate() {
             view.scrolledToBelow(ratio, scroll: overScroll)
         }
     }
 
     private func aboveDrawing(overScroll: CGFloat) {
-        for (index, view) in containerViews.enumerate() {
+        for (_, view) in containerViews.enumerate() {
             let diffX = max(view.startForm.origin.x, view.endForm.origin.x) - min(view.startForm.origin.x, view.endForm.origin.x)
             let diffY = max(view.startForm.origin.y, view.endForm.origin.y) - min(view.startForm.origin.y, view.endForm.origin.y)
             
@@ -137,7 +137,7 @@ public class MTCoordinateManager: UIView {
         if let header = headerView {
             header.frame = CGRectMake(0, newOriginY, headerViewWidth, headerViewHeight)
         }
-        for (index, view) in containerViews.enumerate() {
+        for (_, view) in containerViews.enumerate() {
             view.scrollReset()
         }
     }

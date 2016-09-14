@@ -97,16 +97,14 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
         self.updateRadiusSize(startForm.width, height: startForm.size.height)
     }
     
-    func scrolledToAbove(var ratio: CGFloat, scroll: CGFloat) {
-        if ratio < 0 || ratio > 1 {
-            ratio = 0
-        }
-        var newX = endForm.origin.x + ((startForm.origin.x - endForm.origin.x) * ratio)
-        var newY = endForm.origin.y + ((startForm.origin.y - endForm.origin.y) * ratio)
-        let newWidth = endForm.width + ((startForm.width - endForm.width) * ratio)
-        let newHeight = endForm.height + ((startForm.height - endForm.height) * ratio)
+    func scrolledToAbove(ratio: CGFloat, scroll: CGFloat) {
+        let revRatio = ratio < 0 || ratio > 1 ? 0 : ratio
+        var newX = endForm.origin.x + ((startForm.origin.x - endForm.origin.x) * revRatio)
+        var newY = endForm.origin.y + ((startForm.origin.y - endForm.origin.y) * revRatio)
+        let newWidth = endForm.width + ((startForm.width - endForm.width) * revRatio)
+        let newHeight = endForm.height + ((startForm.height - endForm.height) * revRatio)
         
-        if ratio == 0 && scrollDifference != 0 {
+        if revRatio == 0 && scrollDifference != 0 {
             let padding = startForm.origin.y != endForm.origin.y ? topPadding : 0
             newY += padding + scroll - scrollDifference
         } else if startForm.origin.y < endForm.origin.y {
@@ -123,7 +121,7 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
         contentsView.frame = CGRectMake(0, 0, newWidth, newHeight)
         
         self.updateRadiusSize(newWidth, height: newHeight)
-        self.applySmoothMode(ratio, scroll: scroll)
+        self.applySmoothMode(revRatio, scroll: scroll)
     }
     
     func scrolledToBelow(ratio: CGFloat, scroll: CGFloat) {
