@@ -37,8 +37,8 @@ class ViewController: UIViewController {
             // tap event callback.
         })
 
-        // set views
-        coordinateManager?.setContainer(tableView, views: firstView, secondView)
+        // set views...
+        coordinateManager?.setContainer(tableView, views: coordinateContainer)
 
         self.view.addSubview(tableView)
     }
