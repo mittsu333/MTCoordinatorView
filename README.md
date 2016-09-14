@@ -55,7 +55,9 @@ class ViewController: UIViewController {
 
 ## Installation
 
-// TODO
+```ruby
+pod 'MTCoordinatorView'
+```
 
 
 ## Requirements
