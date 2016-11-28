@@ -7,41 +7,41 @@
 
 import UIKit
 
-public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
+open class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
     
     public enum SmoothMode: Int {
-        case NONE = 0
-        case FIXITY = 1
+        case none = 0
+        case fixity = 1
     }
     
-    private var contentsView: UIView!
+    fileprivate var contentsView: UIView!
     
-    private var topPadding = 0.f
-    private var cornerRadius = 0.f
-    private var scrollDifference = 0.f
+    fileprivate var topPadding = 0.f
+    fileprivate var cornerRadius = 0.f
+    fileprivate var scrollDifference = 0.f
     
-    private var smoothMode: SmoothMode?
-    private var tapGesture: UITapGestureRecognizer!
-    private var complete = { () -> Void in }
+    fileprivate var smoothMode: SmoothMode?
+    fileprivate var tapGesture: UITapGestureRecognizer!
+    fileprivate var complete = { () -> Void in }
     
-    var startForm: CGRect = CGRectZero
-    var endForm: CGRect = CGRectZero
+    var startForm: CGRect = CGRect.zero
+    var endForm: CGRect = CGRect.zero
     
     // MARK: - init
     
-    public convenience init(view: UIView, endForm: CGRect, completion:() -> Void) {
-        self.init(view: view, endForm: endForm, corner: 0.0, mode: .NONE, completion: completion)
+    public convenience init(view: UIView, endForm: CGRect, completion:@escaping () -> Void) {
+        self.init(view: view, endForm: endForm, corner: 0.0, mode: .none, completion: completion)
     }
 
-    public convenience init(view: UIView, endForm: CGRect, corner: Float, completion:() -> Void) {
-        self.init(view: view, endForm: endForm, corner: corner, mode: .NONE, completion: completion)
+    public convenience init(view: UIView, endForm: CGRect, corner: Float, completion:@escaping () -> Void) {
+        self.init(view: view, endForm: endForm, corner: corner, mode: .none, completion: completion)
     }
 
-    public convenience init(view: UIView, endForm: CGRect, mode: SmoothMode, completion:() -> Void) {
+    public convenience init(view: UIView, endForm: CGRect, mode: SmoothMode, completion:@escaping () -> Void) {
         self.init(view: view, endForm: endForm, corner: 0.0, mode: mode, completion: completion)
     }
     
-    public convenience init(view: UIView, endForm: CGRect, corner: Float, mode: SmoothMode, completion:() -> Void) {
+    public convenience init(view: UIView, endForm: CGRect, corner: Float, mode: SmoothMode, completion:@escaping () -> Void) {
         self.init(frame:view.frame)
         initialize(view, end: endForm, corner: corner, mode: mode, completion: completion)
     }
@@ -54,7 +54,7 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func initialize(view: UIView, end: CGRect, corner: Float, mode: SmoothMode, completion:() -> Void) {
+    fileprivate func initialize(_ view: UIView, end: CGRect, corner: Float, mode: SmoothMode, completion:@escaping () -> Void) {
         
         smoothMode = mode
         
@@ -66,7 +66,7 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
         contentsView = view
 
         self.frame = startForm
-        contentsView.frame = CGRectMake(0, 0, startForm.width, startForm.height)
+        contentsView.frame = CGRect(x: 0, y: 0, width: startForm.width, height: startForm.height)
         self.addSubview(contentsView)
         
         tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(tapEvent))
@@ -78,26 +78,26 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
     
     // MARK: - set header view
 
-    func setHeader(systemHeight: CGFloat, transitionHeight: CGFloat) {
+    func setHeader(_ systemHeight: CGFloat, transitionHeight: CGFloat) {
         topPadding = systemHeight
-        startForm = CGRectOffset(startForm, 0, -transitionHeight)
-        endForm = CGRectOffset(endForm, 0, -transitionHeight)
+        startForm = startForm.offsetBy(dx: 0, dy: -transitionHeight)
+        endForm = endForm.offsetBy(dx: 0, dy: -transitionHeight)
         if startForm.origin.y > endForm.origin.y {
-            endForm = CGRectOffset(endForm, 0, -systemHeight)
+            endForm = endForm.offsetBy(dx: 0, dy: -systemHeight)
         }
         self.frame = startForm
-        contentsView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
+        contentsView.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
     }
 
     // MARK: - scroll event
     
     func scrollReset() {
         self.frame = startForm
-        contentsView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
+        contentsView.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
         self.updateRadiusSize(startForm.width, height: startForm.size.height)
     }
     
-    func scrolledToAbove(ratio: CGFloat, scroll: CGFloat) {
+    func scrolledToAbove(_ ratio: CGFloat, scroll: CGFloat) {
         let revRatio = ratio < 0 || ratio > 1 ? 0 : ratio
         var newX = endForm.origin.x + ((startForm.origin.x - endForm.origin.x) * revRatio)
         var newY = endForm.origin.y + ((startForm.origin.y - endForm.origin.y) * revRatio)
@@ -117,21 +117,21 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
             newX += (endForm.width - newWidth) / 2
         }
         
-        self.frame = CGRectMake(newX, newY, newWidth, newHeight)
-        contentsView.frame = CGRectMake(0, 0, newWidth, newHeight)
+        self.frame = CGRect(x: newX, y: newY, width: newWidth, height: newHeight)
+        contentsView.frame = CGRect(x: 0, y: 0, width: newWidth, height: newHeight)
         
         self.updateRadiusSize(newWidth, height: newHeight)
         self.applySmoothMode(revRatio, scroll: scroll)
     }
     
-    func scrolledToBelow(ratio: CGFloat, scroll: CGFloat) {
+    func scrolledToBelow(_ ratio: CGFloat, scroll: CGFloat) {
         let newWidth = startForm.size.width * fabs(ratio)
         let newHeight = startForm.size.height * fabs(ratio)
         let newY = startForm.origin.y * fabs(ratio)
         let smoothX = (startForm.width - newWidth) / 2
         
-        self.frame = CGRectMake(startForm.origin.x, newY, newWidth, newHeight)
-        contentsView.frame = CGRectMake(smoothX, 0, newWidth, newHeight)
+        self.frame = CGRect(x: startForm.origin.x, y: newY, width: newWidth, height: newHeight)
+        contentsView.frame = CGRect(x: smoothX, y: 0, width: newWidth, height: newHeight)
         
         self.updateRadiusSize(newWidth, height: newHeight)
     }
@@ -139,7 +139,7 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
     
     // MARK: - update radius size
     
-    private func updateRadiusSize(width: CGFloat, height: CGFloat) {
+    fileprivate func updateRadiusSize(_ width: CGFloat, height: CGFloat) {
         if cornerRadius > 0 {
             let newRadius = max(width, height) * cornerRadius
             self.layer.cornerRadius = newRadius
@@ -150,8 +150,8 @@ public class MTCoordinateContainer: UIView, UIGestureRecognizerDelegate {
     
     // MARK: - smooth option
     
-    private func applySmoothMode(ratio: CGFloat, scroll: CGFloat) {
-        if smoothMode != .FIXITY {
+    fileprivate func applySmoothMode(_ ratio: CGFloat, scroll: CGFloat) {
+        if smoothMode != .fixity {
             return
         }
 

@@ -1,35 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.2):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
-  - FBSnapshotTestCase/Core (2.1.2)
-  - FBSnapshotTestCase/SwiftSupport (2.1.2):
-    - FBSnapshotTestCase/Core
   - MTCoordinatorView (0.8.0)
-  - Nimble (3.2.0)
-  - Nimble-Snapshots (4.1.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble
-    - Quick
-  - Quick (0.9.3)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - MTCoordinatorView (from `../`)
-  - Nimble (~> 3.0)
-  - Nimble-Snapshots
-  - Quick (~> 0.8)
 
 EXTERNAL SOURCES:
   MTCoordinatorView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
-  MTCoordinatorView: 96dedb55c42f1b3c61b08c073149d770bce20cc9
-  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
-  Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
-  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+  MTCoordinatorView: 333f88de9c4993da28bda02597a5efc63892bf92
 
-PODFILE CHECKSUM: 411756db7545709cbbf79efcce8217a54a35ad24
+PODFILE CHECKSUM: d21b1f40ca50a58d366c36d1dedba2ff41bb20b5
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

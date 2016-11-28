@@ -1,18 +1,17 @@
 {
   "name": "MTCoordinatorView",
   "version": "0.8.0",
-  "summary": "A short description of MTCoordinatorView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MTCoordinatorView",
+  "summary": "The view coordinate arranged to the scrolling is adjusted.",
+  "homepage": "https://github.com/mittsuu/MTCoordinatorView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mittsuu": "mittsu553@gmail.com"
+    "mittsu": "mittsu553@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MTCoordinatorView.git",
+    "git": "https://github.com/mittsuu/MTCoordinatorView.git",
     "tag": "0.8.0"
   },
   "platforms": {

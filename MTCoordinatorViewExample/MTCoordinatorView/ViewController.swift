@@ -11,9 +11,9 @@ import MTCoordinatorView
 
 class ViewController: UIViewController {
 
-    private var coordinateManager: MTCoordinateManager?
-    private var tableView: UITableView!
-    private let sampleDataArray = NSMutableArray()
+    fileprivate var coordinateManager: MTCoordinateManager?
+    fileprivate var tableView: UITableView!
+    fileprivate let sampleDataArray = NSMutableArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,12 +24,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    private func setupView() {
+    fileprivate func setupView() {
         for i in 1...20 {
-            sampleDataArray.addObject(String(format: "sample %02d", i))
+            sampleDataArray.add(String(format: "sample %02d", i))
         }
-        tableView = UITableView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height), style:.Plain)
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), style:.plain)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         let imgHeight = headerImg?.size.height ?? 0
         let imgWidth = headerImg?.size.width ?? 0
         let imageHeight = (imgHeight / imgWidth) * self.view.frame.width
-        let headerView = UIImageView.init(frame: CGRectMake(0, 0, self.view.frame.width, imageHeight))
+        let headerView = UIImageView.init(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: imageHeight))
         headerView.image = headerImg
         
         // set header view
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     
     // MARK: - scroll event
     
-    func scrollViewDidScroll(scrollView: UIScrollView) {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard let manager = coordinateManager else {
             return
         }
@@ -72,15 +72,15 @@ class ViewController: UIViewController {
         let centerX = self.view.frame.width / 2
         let iconSize = 110.f
         let startX = centerX - (iconSize / 2)
-        iconView.frame = CGRectMake(startX, 80.f, iconSize, iconSize)
+        iconView.frame = CGRect(x: startX, y: 80.f, width: iconSize, height: iconSize)
         let radius:Float = 0.5
         iconView.layer.cornerRadius = iconView.frame.width * radius.f
         iconView.clipsToBounds = true
         iconView.layer.masksToBounds = true
         iconView.layer.borderWidth = 3.f
-        iconView.layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8).CGColor
+        iconView.layer.borderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.8).cgColor
         
-        let firstChildView = MTCoordinateContainer.init(view: iconView, endForm: CGRectMake(centerX, 120, 0, 0), corner: radius, completion: { [weak self] in
+        let firstChildView = MTCoordinateContainer.init(view: iconView, endForm: CGRect(x: centerX, y: 120, width: 0, height: 0), corner: radius, completion: { [weak self] in
             self?.tapEvent("Image Tap Event")
         })
         return firstChildView
@@ -88,9 +88,9 @@ class ViewController: UIViewController {
     
     func createSecondView() -> MTCoordinateContainer {
         let btnView = UIImageView.init(image: UIImage(named: "sample-button"))
-        btnView.frame = CGRectMake(self.view.frame.size.width - 70, self.view.frame.size.height + 70, 0, 0)
+        btnView.frame = CGRect(x: self.view.frame.size.width - 70, y: self.view.frame.size.height + 70, width: 0, height: 0)
         
-        let secondChildView = MTCoordinateContainer.init(view: btnView, endForm: CGRectMake(self.view.frame.size.width - 70, self.view.frame.size.height, 50, 50), mode: .FIXITY, completion: { [weak self] in
+        let secondChildView = MTCoordinateContainer.init(view: btnView, endForm: CGRect(x: self.view.frame.size.width - 70, y: self.view.frame.size.height, width: 50, height: 50), mode: .fixity, completion: { [weak self] in
             self?.tapEvent("Button Tap Event")
         })
         return secondChildView
@@ -99,10 +99,10 @@ class ViewController: UIViewController {
     
     // MARK: - tap event
     
-    func tapEvent(msg: String) {
-        let alertController = UIAlertController.init(title: msg, message: nil, preferredStyle: .Alert)
-        alertController.addAction(UIAlertAction.init(title: "OK", style: .Default, handler: nil))
-        self.presentViewController(alertController, animated: true, completion: nil)
+    func tapEvent(_ msg: String) {
+        let alertController = UIAlertController.init(title: msg, message: nil, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction.init(title: "OK", style: .default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
 
 }
@@ -114,17 +114,15 @@ extension ViewController: UITableViewDelegate {
 // MARK: - <#UITableViewDataSource#>
 extension ViewController: UITableViewDataSource {
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sampleDataArray.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell")!
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         cell.textLabel?.text = sampleDataArray[indexPath.row] as? String
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    }
 }
 
