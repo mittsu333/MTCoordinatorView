@@ -1,6 +1,6 @@
 # MTCoordinatorView
 
-![Code](https://img.shields.io/badge/code-Swift2.3-blue.svg)
+![Code](https://img.shields.io/badge/code-Swift3.0-blue.svg)
 [![Version](https://img.shields.io/cocoapods/v/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
 [![License](https://img.shields.io/cocoapods/l/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
 [![Platform](https://img.shields.io/cocoapods/p/MTCoordinatorView.svg?style=flat)](http://cocoapods.org/pods/MTCoordinatorView)
@@ -21,7 +21,7 @@ import MTCoordinatorView
 
 class ViewController: UIViewController {
 
-    private var coordinateManager: MTCoordinateManager?
+    fileprivate var coordinateManager: MTCoordinateManager?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
         // create view
         let childView = UIView.init(frame: CGRectMake(100, 100, 0, 0))
-        let coordinateContainer = MTCoordinateContainer.init(view: childView, endForm: CGRectMake(100, 100, 50, 50), mode: .FIXITY, completion: {
+        let coordinateContainer = MTCoordinateContainer.init(view: childView, endForm: CGRect(100, 100, 50, 50), mode: .FIXITY, completion: {
             // tap event callback.
         })
 
@@ -62,9 +62,15 @@ pod 'MTCoordinatorView'
 
 ## Requirements
 
-* iOS   8.0+
-* Xcode 8.0+
-* Swift 2.3
+* 0.8.0
+    * iOS   8.0+
+    * Xcode 8.0+
+    * Swift 2.3
+
+* 0.8.1
+    * iOS   8.0+
+    * Xcode 8.1+
+    * Swift 3.0
 
 
 ## See Also

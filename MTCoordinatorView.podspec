@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MTCoordinatorView'
-s.version          = '0.8.0'
+s.version          = '0.8.1'
 s.summary          = 'The view coordinate arranged to the scrolling is adjusted.'
 s.homepage         = 'https://github.com/mittsuu/MTCoordinatorView'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
